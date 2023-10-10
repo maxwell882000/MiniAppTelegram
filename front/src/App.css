@@ -1,0 +1,18 @@
+
+* {
+  font-family: 'Inter', sans-serif !important;
+  @apply dark:text-white
+
+}
+h1 {
+  @apply text-lg;
+}
+
+p {
+ @apply text-sm;
+}
+
+.groups button {
+    outline: none !important;
+    @apply focus:outline-none
+}

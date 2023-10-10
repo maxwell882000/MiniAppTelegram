@@ -1,0 +1,25 @@
+{
+  "name": "tg-web-app-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sqlite3": "^5.1.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.58.0",
+    "sequelize": "^6.33.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

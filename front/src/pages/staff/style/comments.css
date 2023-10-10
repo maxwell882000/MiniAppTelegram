@@ -1,0 +1,36 @@
+.userImg {
+    display: none !important;
+}
+
+.hr-style {
+    @apply hidden
+}
+.replySection .replyBtn {
+    @apply hidden
+}
+.replysection .emoji-icon {
+    @apply hidden
+}
+.replyBtn {
+    @apply hidden
+}
+.no-comDiv {
+    @apply dark:text-white
+}
+.szh-menu, .react-responsive-modal-modal {
+    @apply bg-gray-800;
+}
+.form .postComment:focus, .postComment {
+    border: none !important;
+    @apply dark:text-gray-800
+}
+
+.form {
+    background-color: white !important;
+    padding: 20px !important;
+    margin: 0 !important;
+}
+
+.comment-title {
+    @apply dark:text-white
+}

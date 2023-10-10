@@ -1,0 +1,20 @@
+.alert-entering,
+.alert-exiting {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: fixed;
+    z-index: 11;
+
+}
+
+.alert-entered {
+    opacity: 1;
+    position: fixed;
+    z-index: 40;
+}
+
+.alert-exiting {
+    display: block;
+    position: fixed;
+    z-index: 11;
+}
